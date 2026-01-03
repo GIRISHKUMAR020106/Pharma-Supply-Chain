@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma Supply Chain DApp</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .code-block { background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; border-radius: 5px; white-space: pre-wrap; }
+        button { padding: 10px 15px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>Pharma Supply Chain DApp</h1>
+    <button id="connectButton">Connect Wallet</button>
+    <p id="walletStatus"></p>
+
+    <hr>
+
+    <h2>Interact with the Contract</h2>
+    <div>
+        <label for="serialNoInput">Enter Medicine Serial No:</label>
+        <input type="text" id="serialNoInput" placeholder="e.g., 12345">
+        <button id="checkStatusButton">Check Medicine Status</button>
+        <p id="medicineStatus"></p>
+    </div>
+
+    <hr>
+
+    <h2>Smart Contract Code</h2>
+    <div class="code-block">
+        <code>
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.28;
+
+contract PharmaSupplyChain {
+    // ... Your full Solidity code goes here ...
+}
+        </code>
+    </div>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js" type="application/javascript"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
