@@ -1,5 +1,3 @@
-Check out the live website for this project here 👉 https://supply-chain-blockchain.netlify.app/
-
 🏥 Pharma Supply Chain – Blockchain-Based Traceability System
 
 A robust, production-grade pharmaceutical supply chain management smart contract built using Solidity, designed to ensure end-to-end traceability, role-based access control, counterfeit prevention, and patient safety.
